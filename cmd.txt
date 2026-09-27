@@ -1,0 +1,6 @@
+cmake -S . -B build
+cmake --build build -j4
+./build/task1_image
+./build/task2_fit
+./build/task3_windmill resources/task_3.mp4 result/task3_windmill/task_3
+./build/task3_windmill resources/task_4.mp4 result/task3_windmill/task_4
